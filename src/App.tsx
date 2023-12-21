@@ -1,3 +1,4 @@
+import { FefyiLogo } from "./fefyi";
 import "./index.css";
 import useScrollPosition from "@react-hook/window-scroll";
 import { useMemo } from "react";
@@ -46,7 +47,7 @@ function App() {
           </li>
           <li className="flex items-center gap-2">
             <span className="inline-flex h-5 w-5 items-center justify-center rounded-full border border-zinc-700 bg-black p-1">
-              <img src="/fefyi.svg" />
+              <FefyiLogo />
             </span>
             frontendfyi
           </li>
@@ -55,7 +56,7 @@ function App() {
           </li>
           <li className="flex items-center gap-2">
             <span className="inline-flex h-5 w-5 items-center justify-center rounded-full border border-zinc-700 bg-black p-1">
-              <img src="/fefyi.svg" />
+              <FefyiLogo />
             </span>
             courses
           </li>
