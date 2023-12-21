@@ -1,6 +1,10 @@
 {
-  "openFiles": ["src/App.tsx", "src/index.css", "public/geist.woff2"],
-  "otherFiles": ["tailwind.config.js"],
+  "openFiles": ["src/App.tsx", "src/index.css"],
+  "otherFiles": [
+    "tailwind.config.js",
+    "public/geist.woff2",
+    "public/fefyi.svg"
+  ],
   "activeFile": "src/App.tsx",
   "template": "vite-react-ts",
   "options": {
