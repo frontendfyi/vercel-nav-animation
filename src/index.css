@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Geist";
+    src: url("/geist.woff2") format("woff2");
+  }
+
+  :root {
+    @apply bg-black text-white;
+  }
+}
